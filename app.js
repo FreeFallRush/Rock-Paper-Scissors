@@ -64,9 +64,9 @@ function game() {
     let roundCount = 5;
 
     //loop through 5 rounds and alert points after each round
-    for(let i = 0; i<= roundCount; i++) {
+    for(let i = 1; i<= roundCount; i++) {
         let roundResult = playRound();
-        alert(`For round ${i} - Human: ${userPoints} points ~ Computer: ${computerPoints} points`);
+        alert(`Round ${i} - Human: ${userPoints} points ~ Computer: ${computerPoints} points`);
     }
 
     //announce game winner at the end of the game
@@ -84,3 +84,4 @@ alert(game());
 
 
 
+ 
