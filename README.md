@@ -1,6 +1,12 @@
 Added a basic UI to my RPS Game and checked Revisiting Rock Paper Scissors - from The Odin Project Curriculum (https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors)
 
+
+Basic UI - preview - branch:rps-basic-ui
 [![rps.gif](https://i.postimg.cc/VLH8Wj4P/rps.gif)](https://postimg.cc/6yRg94DM)
+
+
+Improved UI - preview - branch:rps-ui
+[![rps-ui-preview.gif](https://i.postimg.cc/mkP4FwJD/rps-ui-preview.gif)](https://postimg.cc/1V12kp9h)
 
 
 The UI has to replace, for each selection (rock, paper, scissors), the alerts with buttons. 
