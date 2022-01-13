@@ -1,3 +1,20 @@
+Added a basic UI to my RPS Game and checked Revisiting Rock Paper Scissors - from The Odin Project Curriculum (https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors)
+
+
+
+
+The UI has to replace, for each selection (rock, paper, scissors), the alerts with buttons. 
+Through this exercise I've learned more how to manipulate the DOM. I've understood better especially the forEach
+method (which was the main challenge in rewriting my code). I've also learned how to use querySelector(All) and addEventListener, how to
+get elements by id and tag names and how to change their style (used this to show and hide the buttons). 
+In my first attempts I've also created new elements and text nodes and place them into the DOM (used this for the result messages), but after I realized the code was getting complicated, I decided to simplify it. 
+Probably there are more simpler and to the point ways to create an UI for RPS... or the whole game in itself. 
+This is just my solution at this stage in my learning path. 
+I've made two UI versions - a basic one, after the exercise requirements, with buttons - and one in which i added images, but the app.js is kept the same. 
+
+
+----------------------------------------------------------------------------------------------------------------------
+
 Project: Rock Paper Scissors - from The Odin Project Curriculum (https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors)
 
 
