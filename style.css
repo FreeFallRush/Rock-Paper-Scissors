@@ -1,7 +1,127 @@
-h1, h2, #options, h3, #result, #reset{
-    text-align: center;
-    margin-top: 55px;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+	font-family: 'Orbitron', sans-serif;
+	background-image: url('img/maths-resources.gif');
+	text-align: center;
+	background-position: center;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-#result, #reset {
-    font-size:18px;
+
+h1 {
+	text-shadow: 2px 2px 8px #636363;
+	margin-top: 45px;
+}
+
+h2 {
+	text-shadow: 2px 2px 8px #636363;
+	margin-top: 55px;
+}
+
+#options {
+	padding: 20px;
+}
+
+#options {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: row;
+	max-height: 100vh;
+	justify-content: center;
+	gap: 19px;
+}
+
+img {
+	width: 100px;
+	height: auto;
+	background-image: url('img/maths-resources.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid rgb(56, 56, 56);
+}
+
+img:hover {
+	box-shadow: 10px 10px 5px grey;
+}
+
+.img-name {
+	text-shadow: 1px 1px 3px #747474;
+	font-weight: 800px;
+}
+
+h3 {
+	padding: 20px;
+}
+
+#result {
+	padding: 20px;
+	border: 1px solid grey;
+	box-shadow: 10px 10px 5px grey;
+	width: 400px;
+	margin: auto;
+	background-image: url('img/math2.jpg');
+	border: 1px solid rgb(56, 56, 56);
+	font-weight: 700;
+}
+
+#reset {
+	padding: 20px;
+}
+
+#game-winner {
+	color: rgb(94, 2, 2);
+	text-shadow: 1px 1px 3px #636363;
+	font-weight: 800;
+}
+
+button {
+	background-image: url('img/math3.jpg');
+	background-color: rgb(0, 0, 0);
+	box-shadow: 5px 5px 5px grey inset;
+	border-radius: 12px;
+	font-weight: 800;
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: 10px 10px 5px rgb(104, 83, 97);
+}
+
+@media (max-width: 768px) {
+	body {
+		background-image: url('img/maths-resources.gif');
+		width: 100%;
+		height: 400px;
+		background-size: 200% 400%;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	img {
+		width: 70px;
+		height: auto;
+		background-image: url('img/maths-resources.gif');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 2px solid rgb(56, 56, 56);
+	}
+	#result {
+		width: 250px;
+		text-align: center;
+		padding: 20px;
+		margin: auto;
+	}
 }
