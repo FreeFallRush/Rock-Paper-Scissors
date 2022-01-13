@@ -1,0 +1,7 @@
+h1, h2, #options, h3, #result, #reset{
+    text-align: center;
+    margin-top: 55px;
+}
+#result, #reset {
+    font-size:18px;
+}
