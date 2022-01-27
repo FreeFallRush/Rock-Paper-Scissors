@@ -8,6 +8,8 @@ Basic UI - preview - branch:rps-basic-ui
 Improved UI - preview - branch:rps-ui
 [![rps-ui-preview.gif](https://i.postimg.cc/mkP4FwJD/rps-ui-preview.gif)](https://postimg.cc/1V12kp9h)
 
+---> [view project](https://freefallrush.github.io/Rock-Paper-Scissors/) <----
+
 
 The UI has to replace, for each selection (rock, paper, scissors), the alerts with buttons. 
 Through this exercise I've learned more how to manipulate the DOM. I've understood better especially the forEach
